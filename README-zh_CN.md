@@ -100,6 +100,9 @@ Please follow this guidelines when reporting bugs and feature requests:
 
 Thanks for understanding!
 
-### License
+本文为转载，仅供个人开发使用。如需二次开发，请移步到原作者项目下。[传送门](https://github.com/cipchk/ng-alain)
++ [DEMO](https://cipchk.github.io/ng-alain/)
+
+### License 
 
 The MIT License (see the [LICENSE](https://github.com/cipchk/ng-alain/blob/master/LICENSE) file for the full text)
