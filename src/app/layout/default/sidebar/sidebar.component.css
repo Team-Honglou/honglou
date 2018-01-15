@@ -1,0 +1,11 @@
+.sidebar-item{
+    text-align: right;
+    padding: 10px 25px 0 0;
+    font-size: 20px;
+}
+@-moz-document url-prefix()  /*Firefox*/
+{
+    .sidebar-item{
+        padding: 10px 15px 0 0!important;
+    }
+}

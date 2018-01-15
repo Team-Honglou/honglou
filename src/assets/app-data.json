@@ -1,0 +1,81 @@
+{
+    "app": {
+        "name": "Alain",
+        "description": "Ng-zorro admin panel front-end framework"
+    },
+    "user": {
+        "name": "Admin",
+        "avatar": "./assets/img/zorro.svg",
+        "email": "cipchk@qq.com"
+    },
+    "menu": [{
+       
+        
+        "children": [{
+                "text": "首页",
+                "translate": "home-page",
+                "link": "/dashboard/home",
+                "icon": "icon-grid"
+        }, {
+            "text": "日志查询",
+            "translate": "query",
+            "link": "/pro/list/table-list",
+            "icon": "icon-chemistry",
+            "acl": "role-a"
+        }, {
+            "text": "日志采集管理",
+            "translate": "collection-manage",
+            "link": "/other",
+            "icon": "fa fa-sitemap",
+            "children": [{
+                "text": "直接采集",
+                "link": "/other/split",
+                "translate": "Direct-ac"
+            }, {
+                "text": "客户端采集",
+                "link": "/other/clipboard",
+                "translate": "Client-ac"
+            }]
+        }, {
+            "text": "日志分析平台管理",
+            "translate": "analysis-platform",
+            "link": "/forms",
+            "icon": "fa fa-stethoscope",
+            "acl": "role-a",
+            "children": [{
+                "text": "面板管理",
+                "link": "/forms/standard",
+                "translate": "Panel-manage"
+            }, {
+                "text": "面板模板管理",
+                "link": "/forms/extended",
+                "translate": "Panel-template"
+            }, {
+                "text": "数据源管理",
+                "link": "/pro/list/card-list",
+                "translate": "Data-source"
+            }]
+        }, {
+            "text": "日志系统管理",
+            "translate": "system-manage",
+            "link": "/editor",
+            "icon": "icon-speedometer",
+            "children": [{
+                "text": "用户管理",
+                "link": "/extras/poi"
+            }, {
+                "text": "系统配置",
+                "link": "/extras/settings"
+            }, {
+                "text": "日志数据管理",
+                "link": "/elements/notification"
+            }, {
+                "text": "上传文件管理",
+                "link": "/forms/upload"
+            }, {
+                "text": "操作审计",
+                "link": "/forms/validation"
+            }]
+        }]
+    }]
+}
